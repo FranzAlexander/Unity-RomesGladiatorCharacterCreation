@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1300212690575406}
+  m_IsPrefabParent: 1
+--- !u!1 &1300212690575406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4833827470129662}
+  - component: {fileID: 114904148547629358}
+  - component: {fileID: 114388402614841198}
+  - component: {fileID: 114557222573366390}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4833827470129662
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300212690575406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114388402614841198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300212690575406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4402cc29801ea40a00d96d22b9ac1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heightSlider: {fileID: 0}
+  heightSliderText: {fileID: 0}
+--- !u!114 &114557222573366390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300212690575406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2b9e5170030b249a05296d8a086c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arcoToggle: {fileID: 0}
+  athlToggle: {fileID: 0}
+  beastToggle: {fileID: 0}
+  deceToggle: {fileID: 0}
+  insiToggle: {fileID: 0}
+  intiToggle: {fileID: 0}
+  mediToggle: {fileID: 0}
+  percToggle: {fileID: 0}
+  perfToggle: {fileID: 0}
+  persToggle: {fileID: 0}
+  survToggle: {fileID: 0}
+  characterName: {fileID: 0}
+  characterAge: {fileID: 0}
+  characterHeight: {fileID: 0}
+  characterRace: {fileID: 0}
+  characterClass: {fileID: 0}
+  characterSocialRank: {fileID: 0}
+  characterWeight: {fileID: 0}
+  pointLeftLabel: {fileID: 0}
+  strStatLabel: {fileID: 0}
+  dexStatLabel: {fileID: 0}
+  conStatLabel: {fileID: 0}
+  intStatLabel: {fileID: 0}
+  wisStatLabel: {fileID: 0}
+  chaStatLabel: {fileID: 0}
+  characterBackStoryLine: {fileID: 0}
+  characterBackStoryName: {fileID: 0}
+  characterBackStoryAgeLine: {fileID: 0}
+  characterBackStoryAge: {fileID: 0}
+  characterBackStoryRaceLine: {fileID: 0}
+  characterBackStoryRace: {fileID: 0}
+  characterBackStorySocialRankLine: {fileID: 0}
+  characterBackStorySocialRank: {fileID: 0}
+  characterBackStoryClassLine: {fileID: 0}
+  characterBackStoryClass: {fileID: 0}
+  characterBackStoryLastLine: {fileID: 0}
+  DisplaySkillInfo: {fileID: 0}
+  murmilloClassInfoDis: {fileID: 0}
+  retiariusClassInfoDis: {fileID: 0}
+  secutorClassInfoDis: {fileID: 0}
+  homplomachusClassInfoDis: {fileID: 0}
+  thraexClassInfoDis: {fileID: 0}
+  sexMaleBtn: {fileID: 0}
+  sexFemaleBtn: {fileID: 0}
+  strDownBtn: {fileID: 0}
+  strUpBtn: {fileID: 0}
+  dexDownBtn: {fileID: 0}
+  dexUpBtn: {fileID: 0}
+  conDownBtn: {fileID: 0}
+  conUpBtn: {fileID: 0}
+  intDownBtn: {fileID: 0}
+  intUpBtn: {fileID: 0}
+  wisDownBtn: {fileID: 0}
+  wisUpBtn: {fileID: 0}
+  chaDownBtn: {fileID: 0}
+  chaUpBtn: {fileID: 0}
+--- !u!114 &114904148547629358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300212690575406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff8ad806e4b04044b1392e1c04e11ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameButton: {fileID: 0}
+  backToMainMenu: {fileID: 0}
+  startGameButton: {fileID: 0}
+  quitGame: {fileID: 0}
